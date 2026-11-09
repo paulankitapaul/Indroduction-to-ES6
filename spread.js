@@ -2,11 +2,11 @@ const arr1 = [12, 14, 16];
 const arr2 = [...arr1]
 arr2.push(30)
 console.log(arr2, arr1);
-// for(let item of arr1){
-//     arr2.push(item)
-//     // console.log(arr2);
-// }
-// array destructuring
+for(let item of arr1){
+    arr2.push(item)
+    // console.log(arr2);
+}
+array destructuring
 const names = ['Mita', 'Rita', 'sita']
 const [x, y, z] = ['Mita', 'Rita', 'sita']
 const [, b] = ['Mita', 'Rita', 'sita']
@@ -28,4 +28,4 @@ console.log(obj2);
 console.log(myInfo);
 const{contact} = myInfo;
 const{email}= contact;
-console.log(email);
+console.log();
